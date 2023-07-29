@@ -1,0 +1,114 @@
+:root{
+    --background:#fff;
+    --primary-brand-color:#4D5AE5;
+    --block-background-color:#2E2F42;
+    --pressed-state-color:#404BBF;
+    --section-heading-color:#2e2f42;
+    --light-mode-color:#F4F4FD;
+}
+body{
+font-family: "Roboto", sans-serif;
+color:#434455;
+font-size:16px;
+line-height: 1.5;
+background: var(--background);}
+
+.title{ font-size:56px;
+line-height: 1.1;
+font-weight:700;
+color:#FFFFFF;
+text-align: center;
+}
+
+.hero{
+    background-color:var(--block-background-color);}
+
+.header-primary{font-size:36px;
+line-height:1.1;
+color:var(--section-heading-color);
+font-weight: 700;
+}
+
+.contacts-block{
+    font-style:normal;
+    text-decoration:none;
+}
+
+.page-footer{
+    color:var(--light-mode-color);
+    background-color:var(--block-background-color);
+}
+
+.btn{color:var(--primary-brand-color);
+font-weight: 500;
+font-family: "roboto";
+font-size:16px;
+line-height:1.5;
+background-color:var(--light-mode-color);
+cursor:pointer;
+box-shadow:none;
+border:1px solid #E7E9FC;
+border-radius: 4px;
+letter-spacing: 0.64px;
+}
+
+.btn:hover,
+.btn:focus {
+    color:#FFFFFF;
+    background-color:var(--pressed-state-color);
+    border:1px solid var(--pressed-state-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+  }
+
+.btn-white{color:#FFFFFF;
+    font-weight: 500;
+    font-family: "roboto";
+    font-size:16px;
+    line-height:1.5;
+    background-color:var(--primary-brand-color);
+    cursor:pointer;
+    border:var(--primary-brand-color);
+    border-radius: 4px;
+    letter-spacing: 0.64px;
+}
+
+.btn-white:hover,
+.btn-white:focus{background-color:var(--pressed-state-color);
+border: var(--pressed-state-color);
+box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.logo {
+    font-family: "raleway";
+    text-decoration: none;
+    font-size:18px;
+    line-height: 1.1;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#2E2F42;
+}
+
+.highlight{
+    color:var(--primary-brand-color);}
+
+.studio-highlight{
+    color:var(--light-mode-color);}
+
+.link{font-style: normal;
+    text-decoration:none;
+    color:#434455;
+}
+
+.link:hover,
+.link:focus {color:var(--pressed-state-color);
+}
+
+.header-list{font-size:20px;
+line-height:1.2;
+color:var(--section-heading-color);
+font-weight: 500;}
+
+.menu{
+font-weight: 500;
+color:#2E2F42;}
