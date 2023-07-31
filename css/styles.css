@@ -305,6 +305,9 @@ img{
     display: block;
     border:0;
 }
+a{    text-decoration-line: none;
+    font-style: normal;
+color:var(--section-heading-color)}
 .wrapper-team-list{
     background-color:#fff;
     border-radius: 0px 0px 4px 4px;
