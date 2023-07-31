@@ -42,15 +42,13 @@ max-width: 496px;
 margin: 0;
 }
 .visually-hidden{
-    visibility: hidden;
-    margin:0;
-    padding: 0;
-    content: 0;
+    display: none;
 }
 .header-wrapper{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    max-height: 72px;
 }
 .border-header{
     border-bottom: 1px solid #e7e9fc;
@@ -182,8 +180,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     font-weight: 800;
     text-transform: uppercase;
     color:#2E2F42;
-    margin-top:24px;
-    margin-bottom: 24px;
+    padding: 24px 0;
 }
 
 .wrapper-logo-top{
@@ -223,7 +220,6 @@ color:#2E2F42;
 display: flex;
 justify-content: space-between;
 margin-right: 40px;
-margin-right: 322px;
 padding: 24px 0;
 gap: 40px;}
 
@@ -300,15 +296,19 @@ img{
     background-color:#fff;
     border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-padding: 32px ;
+padding: 32px 16px;
 text-align: center;
 display: flex;
 flex-wrap:wrap;
 justify-content: center;
 }
+.wrapper-team-p{
+    padding:0 16px;
+}
 .section{
 padding-top:120px;
 padding-bottom:120px;
+display: flex;
 }
 .space-footer{
     padding: 100px 0;
@@ -320,4 +320,7 @@ padding-bottom:120px;
 
 .wapper-workers-title{
     margin-bottom: 72px;
+}
+.wapper-value{
+    flex-basis: calc((100% - 72px) / 4);
 }
