@@ -33,6 +33,7 @@ p{
     gap: 32px;
     margin-top: 0;
 }
+img{display: block;}
 .title{ font-size:56px;
 line-height: 1.1;
 font-weight:700;
@@ -81,6 +82,9 @@ padding:188px 0;
 }
 .wrapper-volue-list{
     width:264px;
+}
+.wrapper-bottom-p{
+    margin-bottom: 8px;
 }
 
 .header-primary{font-size:36px;
