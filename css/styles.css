@@ -192,6 +192,8 @@ box-shadow: 0px 4px 4px 0px #00000026;
 
 .align-nav{
     align-items: center;
+    padding: 24px 0;
+    gap: 40px;
 }
 .highlight{
     color:var(--primary-brand-color);}
