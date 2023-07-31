@@ -266,10 +266,14 @@ padding-bottom: 120px;
     gap: 24px;
     flex-basis:0;
     justify-content: center;
-    padding-top:96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
-
+.btn-wrapper-section{
+    padding: 96px 0 120px 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .workers-list{
 height: 732px;
 flex-shrink: 0;
