@@ -48,10 +48,12 @@ margin: 0;
     content: 0;
 }
 .header-wrapper{
-    border-bottom: 1px solid var(--light-accent-color);
     justify-content: space-between;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+}
+.border-header{
+    border-bottom: 1px solid #e7e9fc;
 }
     .header-wrapper > nav {
     display:flex; 
@@ -60,9 +62,6 @@ margin: 0;
 .header-wrapper > nav > address {
     display: flex;
     align-items: flex-start;
-}
-.wrapper-nav {
-    padding:0 40px;
 }
 
 .wrapper-address{
@@ -223,7 +222,8 @@ display: flex;
 justify-content: space-between;
 margin-right: 40px;
 margin-right: 322px;
-padding: 24px 0;}
+padding: 24px 0;
+gap: 40px;}
 
 .container{
     max-width:1158px;
@@ -245,13 +245,12 @@ padding: 24px 0;}
 }
 .wrapper-workers-list{
     display: flex;
-padding-bottom: 0px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 24px;
 border-radius: 0px 0px 4px 4px;
-padding: 32px 16px;
+padding-bottom:120px;
 
 }
 .wrapper-portfolio-list{
