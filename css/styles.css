@@ -94,6 +94,7 @@ font-weight: 700;
 text-align: center;
 text-transform: capitalize;
 letter-spacing: 0.72px;
+margin-top:0;
 }
 
 .contacts-block{
@@ -105,7 +106,6 @@ letter-spacing: 0.72px;
     color:var(--light-mode-color);
     background-color:var(--block-background-color);
     flex-shrink: 0;
-    height: 312px;
 
 }
 .footer-wrapper{
@@ -167,7 +167,6 @@ display: flex;}
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    min-width: 169px;
 }
 
 .btn-white:hover,
@@ -287,7 +286,6 @@ row-gap: 48px;
     gap: 24px;
 }
 .workers-list{
-height: 732px;
 flex-shrink: 0;
 margin-left: 0;
     background-color:var(--light-mode-color);
@@ -302,8 +300,18 @@ align-items: flex-start;
     border: 1px solid var(--light-accent-color);
     border-top: none;
     padding: 32px 16px;
-    margin-bottom: 8px;
+    display: flex;
+width: 360px;
+flex-direction: column;
+align-items: flex-start;
+flex-shrink: 0;
     }
+figure {display: flex;
+flex-wrap: wrap;
+margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;}
 s{
     display: block;
     border:0;
