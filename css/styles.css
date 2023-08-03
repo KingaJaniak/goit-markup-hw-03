@@ -265,7 +265,6 @@ row-gap: 48px;
 .calc-portfolio{
     width: calc((100% - 48px) / 3);
 }
-
 .none-link{
     text-decoration: none;
     font-style: normal;
@@ -341,7 +340,9 @@ display: flex;
 .wrapper-header-primary{
     margin-bottom: 72px;    
 }
-.first-wrapper-list{width: calc((100% - 48px) / 3);}
+.first-wrapper-list{
+    width: calc((100% - 48px) / 3);
+}
 
 .wapper-workers-title{
     margin-bottom: 72px;
